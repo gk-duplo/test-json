@@ -1,0 +1,16 @@
+{
+  devops: {
+    containers: {
+      default: "Containers",
+      services: {
+        default: "Application deployed as a docker or non docker containers. DuploLive only supports Docker services at this moment. Talk to us at info@duplocloud.net if you want to use DuploEnterprise for non-docker applications",
+        list_containers: {
+          name: "Container identifier assigned by the docker." 
+        },
+        add_service: {
+          service_name: 'Provide identifier for the service.'
+        }
+      }
+    }
+  }
+}
